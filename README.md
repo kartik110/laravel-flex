@@ -3,10 +3,16 @@
 # Laravel Flex-task
 
 ## Introduction
-**Bold Text** or __Bold Text__
-```bash
-cp source_file destination
+**Installation steps**
+-  Git clone, use `git clone https://github.com/kartik110/laravel-flex.git`.
+- After git clone `cd laravel-flex` to go to project directory.
+- After run compoer install command, `composer install`
+- After Composer install, configure the database in `.env` file.
+- After run this command `php artisan key:generate`
+- After run migration command, `php artisan migrate`
+- After run database seed command, `php artisan db:seed`
 
-# 1. cp source_file destination
-# 2. ls -l
+- _Then you can check by creating a student or teacher login account._
+- _And next I have to understand the functionality._
+- _The array is rotated but I have to figure out how to work with the student and teacher arrays._
 
